@@ -8,7 +8,7 @@ categories: jekyll update
 To add *new* posts, simply add a file in the '_posts' directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 ![Guignardplaatje](/assets/banner-guignard.jpg){:class="img-responsive"}
-*Een schilderij van Guignard.*
+*Een schilderij van Alberto da Veiga Guignard (1896-1962*
 <!-- ![image-title-here]({{ site.url }}/assets/banner-guignard.jpg){:class="img-responsive"} -->
 
 <!-- ##### Met een onderschrift© -->
