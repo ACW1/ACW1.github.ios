@@ -9,7 +9,6 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /**
  * Basic styling
  */
@@ -47,7 +46,12 @@ img {
     vertical-align: middle;
 }
 
-
+// styling voor onderschrift afbeeldingen -- zelf toegevoegd
+img + em {
+    color: darkgrey;
+    font-size: 14px;
+    font-style: normal;
+}
 
 /**
  * Figures
@@ -91,11 +95,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    // color: $brand-color;
+    color: #C71B20;
     text-decoration: none;
 
     &:visited {
-        color: darken($brand-color, 15%);
+        // color: darken($brand-color, 15%);
+        color: darken(#C71B20, 15%);
     }
 
     &:hover {
